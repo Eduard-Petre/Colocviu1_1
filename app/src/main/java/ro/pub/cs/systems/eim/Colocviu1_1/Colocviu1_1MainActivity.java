@@ -29,7 +29,7 @@ public class Colocviu1_1MainActivity extends AppCompatActivity {
             if (id == R.id.button_NORTH) {
                 noOfClicks++;
 
-                direction = "NORTH";
+                direction = "North";
 
                 if(text.equals("")) {
                     text = direction;
@@ -40,7 +40,7 @@ public class Colocviu1_1MainActivity extends AppCompatActivity {
             } else if (id == R.id.button_SOUTH) {
                 noOfClicks++;
 
-                direction = "SOUTH";
+                direction = "South";
 
                 if(text.equals("")) {
                     text = direction;
@@ -51,7 +51,7 @@ public class Colocviu1_1MainActivity extends AppCompatActivity {
             } else if (id == R.id.button_EAST) {
                 noOfClicks++;
 
-                direction = "EAST";
+                direction = "East";
 
                 if(text.equals("")) {
                     text = direction;
@@ -62,7 +62,7 @@ public class Colocviu1_1MainActivity extends AppCompatActivity {
             } else if (id == R.id.button_WEST) {
                 noOfClicks++;
 
-                direction = "WEST";
+                direction = "West";
 
                 if(text.equals("")) {
                     text = direction;

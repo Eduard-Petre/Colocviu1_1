@@ -23,7 +23,7 @@ public class Colocviu1_1Service extends Service {
     public int onStartCommand(Intent intent,
                               int flags,
                               int startId) {
-        String commands = new Date(System.currentTimeMillis()) + " " + intent.getStringExtra(Constants.commands);
+        String commands = new Date(System.currentTimeMillis()) + " - " + intent.getStringExtra(Constants.commands);
 
         Log.d(Constants.TAG, "Service has been called");
         processingThread = new ProcessingThread(this, commands);
