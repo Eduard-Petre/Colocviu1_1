@@ -146,7 +146,7 @@ public class Colocviu1_1MainActivity extends AppCompatActivity {
         switch (requestCode) {
             case Constants.RequestCode:
                 if (resultCode == RESULT_OK)
-                    Toast.makeText(this, "The activity returned with result OK", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, "The activity returned with result REGISTERED", Toast.LENGTH_LONG).show();
                 else if (resultCode == RESULT_CANCELED)
                     Toast.makeText(this, "The activity returned with result CANCELED ", Toast.LENGTH_LONG).show();
                 break;
