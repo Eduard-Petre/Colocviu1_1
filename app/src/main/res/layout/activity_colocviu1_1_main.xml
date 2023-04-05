@@ -52,6 +52,7 @@
         android:text="" />
 
     <Button
+        android:id="@+id/button_NAVIGATE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="NAVIGATE TO THE SECONDARY ACTIVITY" />
