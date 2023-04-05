@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Colocviu1_1MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="154dp"
+        android:saveEnabled="false">
+
+        <Button
+            android:id="@+id/button_NORTH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NORTH"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/button_WEST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WEST"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/button_EAST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EAST"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/button_SOUTH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SOUTH"
+            app:layout_column="1"
+            app:layout_row="2" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <EditText
+        android:id="@+id/editText_OUTPUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAVIGATE TO THE SECONDARY ACTIVITY" />
+
+</LinearLayout>
